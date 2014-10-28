@@ -1,4 +1,3 @@
-#Award = Struct.new(:name, :expires_in, :quality)
 module NormalAward
   def update_quality
     incr = @expires_in > 0 ? -1 : -2
